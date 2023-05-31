@@ -1,0 +1,58 @@
+body{
+    background-image: url("images/bg-pattern-desktop.svg");
+    font-family: 'Josefin Sans', sans-serif;
+}
+.first{
+    font-size: 600%;
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.paragraph{
+    font-size: 16px;
+    width: 30%;
+    color:  hsl(0, 36%, 70%);
+    margin-left: 40px;
+    margin-top: 15px;
+}
+img{
+    margin:40px;
+}
+.pic{
+    
+}
+/* #deskop-img{
+    display: block;
+}
+#mob-img{
+    display: none;
+}
+@media screen and (max-width:525px ){
+    #mob-img{
+        display: block;
+    }
+    #deskop-img{
+        display: none !important;
+    } */
+
+.btn {
+    /* Blue background */
+    border: none; /* Remove borders */
+    background: none;
+    float: right;
+    color: palevioletred;/* White text */
+    padding: 15px 16px; /* Some padding */
+    font-size: 25px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  .btn:hover {
+    color: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+  }
+  #email {
+    text-align: center;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+} 
